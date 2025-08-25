@@ -2,7 +2,7 @@
 
 site_name: KAIZEN Platform Documentation
 site_description: The official documentation for the KAIZEN low-code development platform.
-site_url: https://docs.your-kaizen-instance.com/
+site_url: https://rajveerrall.github.io/Docs-prototype/
 docs_dir: docs
 
 # Recommended Theme
@@ -35,6 +35,7 @@ nav:
   - "Designer's Guide (Frontend)":
     - 'The App Designer Interface':
       - 'Overview': 'designer-guide/app-designer-ui/index.md'
+      - 'Core Features': 'designer-guide/app-designer-ui/core-features.md'
       - 'Resource Panel': 'designer-guide/app-designer-ui/resource-panel.md'
       - 'Plugin Panel': 'designer-guide/app-designer-ui/plugin-panel.md'
       - 'Canvas': 'designer-guide/app-designer-ui/canvas.md'
