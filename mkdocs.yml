@@ -1,0 +1,156 @@
+# mkdocs.yml
+
+site_name: KAIZEN Platform Documentation
+site_description: The official documentation for the KAIZEN low-code development platform.
+site_url: https://docs.your-kaizen-instance.com/
+
+# Recommended Theme
+theme:
+  name: material
+  palette:
+    - scheme: default
+      primary: 'indigo'
+      accent: 'blue'
+    - scheme: slate
+      primary: 'indigo'
+      accent: 'blue'
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - navigation.expand
+    - navigation.top
+    - search.suggest
+    - search.highlight
+    - content.code.annotate
+    - content.tabs.link
+
+# Navigation Structure
+nav:
+  - 'Getting Started':
+    - 'Introduction to KAIZEN': 'getting-started/introduction.md'
+    - 'Core Concepts': 'getting-started/core-concepts.md'
+    - 'Account Setup & Login': 'getting-started/account-setup.md'
+    - 'A Tour of the KAIZEN Studio': 'getting-started/studio-tour.md'
+  - "Designer's Guide (Frontend)":
+    - 'The App Designer Interface':
+      - 'Overview': 'designer-guide/app-designer-ui/index.md'
+      - 'Resource Panel': 'designer-guide/app-designer-ui/resource-panel.md'
+      - 'Plugin Panel': 'designer-guide/app-designer-ui/plugin-panel.md'
+      - 'Canvas': 'designer-guide/app-designer-ui/canvas.md'
+      - 'Setter Plugin': 'designer-guide/app-designer-ui/setter-plugin.md'
+    - 'Building Pages & Layouts':
+      - 'Managing Pages': 'designer-guide/layouts/managing-pages.md'
+      - 'Layout Hierarchy (Section, Block, Cell)': 'designer-guide/layouts/hierarchy.md'
+      - 'Building a Screen Skeleton': 'designer-guide/layouts/building-a-screen-skeleton.md'
+      - 'Responsive Design': 'designer-guide/layouts/responsive-design.md'
+    - 'Working with Components':
+      - 'Overview': 'designer-guide/components/index.md'
+      - 'General Components': 'designer-guide/components/general.md'
+      - 'Information Input (Forms)': 'designer-guide/components/forms.md'
+      - 'Data Display (Tables & Charts)': 'designer-guide/components/data-display.md'
+      - 'Navigation (Steps & Tabs)': 'designer-guide/components/navigation.md'
+      - 'User Feedback (Dialogs)': 'designer-guide/components/feedback.md'
+    - 'Data Binding & Dynamic Content': 'designer-guide/data-binding.md'
+    - 'Styling and Theming': 'designer-guide/theming.md'
+    - 'Page Navigation & Events': 'designer-guide/navigation-and-events.md'
+    - 'Advanced Features':
+      - 'Multi-language Support (i18n)': 'designer-guide/advanced/i18n.md'
+      - 'Page Analysis with Page Scan': 'designer-guide/advanced/page-scan.md'
+      - 'Importing Pages from Templates': 'designer-guide/advanced/templates.md'
+    - 'Collaboration & Versioning': 'designer-guide/collaboration.md'
+  - "Developer's Guide (Backend)":
+    - 'Backend Development Overview': 'developer-guide/overview.md'
+    - 'Local Environment Setup': 'developer-guide/local-setup.md'
+    - 'Database Designer': 'developer-guide/database-designer.md'
+    - 'Service & API Designer':
+      - 'Creating a Microservice': 'developer-guide/services/creating-services.md'
+      - 'Configuring API Endpoints': 'developer-guide/services/api-endpoints.md'
+      - 'Defining Data Types (VOs)': 'developer-guide/services/data-types.md'
+    - 'Workflow Designer':
+      - 'Designing a Custom Workflow': 'developer-guide/workflows/designing-workflows.md'
+      - 'Deploying & Managing Workflows': 'developer-guide/workflows/deploying-workflows.md'
+      - 'Workflow Observability': 'developer-guide/workflows/observability.md'
+    - 'Code Generation & Customization': 'developer-guide/code-generation.md'
+    - 'Integrating Frontend & Backend': 'developer-guide/integration.md'
+    - 'Version Control with Git': 'developer-guide/git-management.md'
+  - 'Core Platform Services':
+    - 'Identity & Access Management (IAM)': 'core-services/iam.md'
+    - 'Job Scheduler': 'core-services/job-scheduler.md'
+    - 'Master Code Integration': 'core-services/master-code.md'
+  - 'Tutorials':
+    - 'Build a CRUD Application': 'tutorials/crud-application.md'
+    - 'Automate a Business Process': 'tutorials/business-process-automation.md'
+    - 'Deploying Your First Application': 'tutorials/deployment-guide.md'
+  - 'Component Reference':
+    - 'Layout':
+      - 'Block': 'reference/components/layout/block.md'
+      - 'Cell': 'reference/components/layout/cell.md'
+      - 'Section': 'reference/components/layout/section.md'
+    - 'General':
+      - 'Box': 'reference/components/general/box.md'
+      - 'Button': 'reference/components/general/button.md'
+      - 'Card': 'reference/components/general/card.md'
+      - 'Divider': 'reference/components/general/divider.md'
+      - 'Icon': 'reference/components/general/icon.md'
+      - 'Text': 'reference/components/general/text.md'
+    - 'Input':
+      - 'Checkbox': 'reference/components/input/checkbox.md'
+      - 'Date Picker': 'reference/components/input/date-picker.md'
+      - 'Form Item': 'reference/components/input/form-item.md'
+      - 'Form Template': 'reference/components/input/form-template.md'
+      - 'Number Input': 'reference/components/input/number-input.md'
+      - 'Rating': 'reference/components/input/rating.md'
+      - 'Select': 'reference/components/input/select.md'
+      - 'Text Input': 'reference/components/input/text-input.md'
+      - 'Text Area': 'reference/components/input/text-area.md'
+    - 'Data Display':
+      - 'Table': 'reference/components/data-display/table.md'
+      - 'Picture': 'reference/components/data-display/picture.md'
+      - 'Bar Chart': 'reference/components/data-display/bar-chart.md'
+      - 'Pie Chart': 'reference/components/data-display/pie-chart.md'
+    - 'Navigation':
+      - 'Steps': 'reference/components/navigation/steps.md'
+      - 'Tabs': 'reference/components/navigation/tabs.md'
+    - 'Feedback':
+      - 'Dialog': 'reference/components/feedback/dialog.md'
+  - 'API & Utilities Reference':
+    - 'Frontend Utilities (this.utils)': 'reference/api/frontend-utils.md'
+    - 'Backend API Reference': 'reference/api/backend-api.md'
+  - 'Glossary': 'glossary.md'
+
+
+markdown_extensions:
+    - toc:
+        permalink: true
+    - tables
+    - attr_list
+    - pymdownx.emoji
+    - md_in_html
+    - pymdownx.critic
+    - pymdownx.caret
+    - pymdownx.keys
+    - pymdownx.mark
+    - pymdownx.tilde
+
+plugins:
+  - search
+  - section-index
+  - mermaid2:
+      arguments:
+        theme: 'forest'
+  - glightbox:
+      touchNavigation: true
+      loop: false
+      effect: zoom
+      slide_effect: slide
+      width: 90%
+      height: auto
+      zoomable: true
+      draggable: true
+
+extra_css:
+  - custom.css
+
+extra:
+  version:
+    provider: mike

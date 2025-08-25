@@ -1,0 +1,7 @@
+# Ignore everything by default
+*
+
+# But keep the following files and directories
+!docs/
+!mkdocs.yml
+!.gitignore
