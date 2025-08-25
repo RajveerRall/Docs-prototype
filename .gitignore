@@ -4,4 +4,5 @@
 # But keep the following files and directories
 !docs/
 !mkdocs.yml
+!requirements.txt
 !.gitignore
