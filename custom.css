@@ -1,0 +1,80 @@
+/* Define variables for colors and spacing */
+:root {
+    --card-bg-color: #ffffff; /* White background */
+    --card-border-color: #e0e0e0;
+    --card-title-color: #333;
+    --card-link-color: #007bff;
+    --card-link-hover-color: #0056b3;
+}
+
+/* Main container for the cards */
+.main-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* Create 2 equal columns */
+    gap: 20px; /* Space between cards */
+}
+
+/* Individual card styling for a flatter look */
+.card {
+    background-color: var(--card-bg-color);
+    border: 1px solid var(--card-border-color); /* Simple border */
+    border-radius: 4px; /* Slightly rounded corners */
+    box-shadow: none; /* No shadow for a flat appearance */
+    transition: border-color 0.3s ease-in-out;
+    text-align: left;
+}
+
+/* Hover effect for the card */
+.card:hover {
+    border-color: var(--card-link-color); /* Highlight border on hover */
+}
+
+/* Container inside the card */
+.card .container {
+    padding: 15px 20px;
+}
+
+/* Card title */
+.card h4 {
+    color: var(--card-title-color);
+    font-size: 1.2em;
+    margin-top: 10px;
+}
+
+/* Horizontal rule */
+.card hr {
+    border: 0;
+    border-top: 1px solid var(--card-border-color);
+    margin: 10px 0;
+}
+
+/* Links */
+.card a {
+    color: var(--card-link-color);
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+/* Link hover effect */
+.card a:hover {
+    color: var(--card-link-hover-color);
+    text-decoration: underline;
+}
+
+/* Responsive adjustments */
+@media (max-width: 600px) {
+    .main-container {
+        grid-template-columns: 1fr; /* Single column on mobile */
+    }
+}
+
+/* Custom styles for the side panel */
+.md-nav__section h2 {
+    font-size: 1.1em; /* Increase the font size */
+    font-weight: bold;
+    margin-top: 1em; /* Add some space above the header */
+}
+
+.md-nav__link {
+    color: #666; /* Muted color for the links */
+}
