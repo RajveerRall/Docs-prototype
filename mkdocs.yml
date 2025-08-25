@@ -3,6 +3,7 @@
 site_name: KAIZEN Platform Documentation
 site_description: The official documentation for the KAIZEN low-code development platform.
 site_url: https://docs.your-kaizen-instance.com/
+docs_dir: docs
 
 # Recommended Theme
 theme:
