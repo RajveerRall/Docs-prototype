@@ -1,6 +1,0 @@
-# Step 6: Add a table component
-
-
-
-
-

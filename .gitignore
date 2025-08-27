@@ -1,8 +1,4 @@
 # Ignore everything by defaul
 
 # But keep the following files and directories
-!docs/
-!.github/
-!mkdocs.yml
-!requirements.txt
-!.gitignore
+

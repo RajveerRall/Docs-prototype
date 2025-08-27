@@ -1,6 +1,0 @@
-# Expected Result
-
-
-
-
-
