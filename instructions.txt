@@ -1,0 +1,4 @@
+Run mkdocs build
+ERROR   -  Config value 'docs_dir': The path '/home/runner/work/Docs-prototype/Docs-prototype/docs' isn't an existing directory.
+Aborted with a configuration error!
+Error: Process completed with exit code 1.

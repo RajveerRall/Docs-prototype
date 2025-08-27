@@ -1,0 +1,62 @@
+# Frontend Git Branch Management
+
+In your App Designer, click on the Git icon menu item on the left panel. Then, click on the + icon to create a new branch
+
+
+
+
+
+In the pop-up window, enter the following details
+
+Branch Name: <username>_enhancement (e.g. amandalam_enhancement).
+
+
+
+
+
+This will create a new branch based on the current branch that you are on, in this case, ‘main’. You can then work on your feature enhancement and make the relevant changes to this newly created branch.
+
+
+
+
+
+You should be able to see this newly created branch reflected on Git as well.
+
+
+
+
+
+Navigate back to your application’s resources by clicking the Resources icon
+
+
+
+
+
+In the app designer. You may switch to the new branch by clicking on your application’s
+
+current branch as shown below.
+
+
+
+
+
+![Image Description](./images/image_82.png)
+
+Alternatively, you may also switch to the new branch by clicking the Git branch on your application from the studio console.
+
+
+
+
+
+Note that switching of branches on KAIZEN is a personal setting and is tied to individual users. Hence, if another project member switches branches, it will not be reflected on your application.
+
+Ensure that your ‘Training Environment’ profile is checked in the new branch as well.
+
+
+
+
+
+
+
+
+

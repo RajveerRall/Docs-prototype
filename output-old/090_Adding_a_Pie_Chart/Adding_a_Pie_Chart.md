@@ -1,0 +1,12 @@
+# Adding a Pie Chart
+
+Select the ‘Enrollment’ tab in the Tab Component.
+
+From the Component Library, search for ‘chart’ and drag a Pie Chart Component into the
+
+Enrollment Tab.
+
+
+
+
+
